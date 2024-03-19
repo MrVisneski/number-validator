@@ -1,0 +1,75 @@
+:root {
+  --eggplant: #483c46ff;
+  --caribbean-current: #3c6e71ff;
+  --asparagus: #70ae6eff;
+  --green-yellow: #beee62ff;
+}
+
+body {
+  background-color: var(--caribbean-current);
+  width: 70%;
+  margin: auto auto;
+}
+
+h1 {
+  color: var(--asparagus);
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 5vw;
+}
+
+button {
+  display: inline-block;
+  padding: 0.6em 2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: var(--asparagus);
+  text-align: center;
+  transition: all 0.2s;
+  border-style: none;
+  font-size: 2vw;
+  width: 20%;
+  min-width: 100px;
+}
+
+button:hover {
+  background-color: var(--green-yellow);
+}
+
+#user-input {
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  margin: 30px auto;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#results-div {
+  width: 70%;
+  
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 40px;
+  text-align: center;
+  background-color: var(--eggplant);
+}
+
+.result {
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    color: var(--green-yellow);
+}
